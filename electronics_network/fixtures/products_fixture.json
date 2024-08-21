@@ -1,0 +1,32 @@
+[
+    {
+        "model": "electronics_network.product",
+        "pk": 1,
+        "fields": {
+            "name": "Ноутбук X",
+            "model": "X1000",
+            "release_date": "2024-01-15",
+            "network_node": 1
+        }
+    },
+    {
+        "model": "electronics_network.product",
+        "pk": 2,
+        "fields": {
+            "name": "Смартфон Y",
+            "model": "Y2000",
+            "release_date": "2024-02-10",
+            "network_node": 2
+        }
+    },
+    {
+        "model": "electronics_network.product",
+        "pk": 3,
+        "fields": {
+            "name": "Планшет Z",
+            "model": "Z3000",
+            "release_date": "2024-03-05",
+            "network_node": 3
+        }
+    }
+]

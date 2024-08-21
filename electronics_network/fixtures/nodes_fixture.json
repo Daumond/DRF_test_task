@@ -1,0 +1,50 @@
+[
+    {
+        "model": "electronics_network.networknode",
+        "pk": 1,
+        "fields": {
+            "name": "Завод A",
+            "email": "factoryA@example.com",
+            "country": "Россия",
+            "city": "Москва",
+            "street": "Ленина",
+            "house_number": "10",
+            "level": 0,
+            "supplier": null,
+            "debt": "0.00",
+            "created_at": "2024-08-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "electronics_network.networknode",
+        "pk": 2,
+        "fields": {
+            "name": "Розничная сеть B",
+            "email": "retailB@example.com",
+            "country": "Россия",
+            "city": "Санкт-Петербург",
+            "street": "Невский проспект",
+            "house_number": "20",
+            "level": 1,
+            "supplier": 1,
+            "debt": "10000.00",
+            "created_at": "2024-08-02T10:00:00Z"
+        }
+    },
+    {
+        "model": "electronics_network.networknode",
+        "pk": 3,
+        "fields": {
+            "name": "Индивидуальный предприниматель C",
+            "email": "entrepreneurC@example.com",
+            "country": "Россия",
+            "city": "Екатеринбург",
+            "street": "Чкалова",
+            "house_number": "5",
+            "level": 2,
+            "supplier": 2,
+            "debt": "5000.00",
+            "created_at": "2024-08-03T10:00:00Z"
+        }
+    }
+]
